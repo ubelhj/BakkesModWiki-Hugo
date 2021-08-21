@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BakkesMod Programming Wiki</title>
-    <link>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/</link>
+    <link>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/</link>
     <description>Recent content on BakkesMod Programming Wiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CARBODY</title>
-      <link>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/CARBODY/</link>
+      <link>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/CARBODY/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/CARBODY/</guid>
+      <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/CARBODY/</guid>
       <description>View Implementation     CAR_BACKFIRE = (21)
   CAR_BREAKOUT = (22)
   CAR_BREAKOUTTYPES = (1416)
@@ -28,10 +28,10 @@
     
     <item>
       <title>OnlinePlatform</title>
-      <link>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/OnlinePlatform/</link>
+      <link>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/OnlinePlatform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/OnlinePlatform/</guid>
+      <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/OnlinePlatform/</guid>
       <description>View Implementation     OnlinePlatform_Unknown = (0)
   OnlinePlatform_Steam = (1)
   OnlinePlatform_PS4 = (2)
@@ -49,10 +49,10 @@
     
     <item>
       <title>PRODUCTQUALITY</title>
-      <link>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/PRODUCTQUALITY/</link>
+      <link>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/PRODUCTQUALITY/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/PRODUCTQUALITY/</guid>
+      <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/PRODUCTQUALITY/</guid>
       <description>  View Implementation     Common = (0)
   Uncommon = (1)
   Rare = (2)
@@ -68,10 +68,10 @@
     
     <item>
       <title>ToastType</title>
-      <link>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/ToastType/</link>
+      <link>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/ToastType/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/ToastType/</guid>
+      <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/ToastType/</guid>
       <description>  View Implementation     ToastType_Info = (0)
   ToastType_OK = (1)
   ToastType_Warning = (2)
@@ -81,10 +81,10 @@
     
     <item>
       <title>TRADEHOLD</title>
-      <link>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/TRADEHOLD/</link>
+      <link>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/TRADEHOLD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/TRADEHOLD/</guid>
+      <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/TRADEHOLD/</guid>
       <description>  View Implementation     TRADEHOLD_P2P = (-2)
   TRADEHOLD_ALL = (-1)
   TRADEHOLD_NONE = (0)
@@ -93,10 +93,10 @@
     
     <item>
       <title>UNLOCKMETHOD</title>
-      <link>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/UNLOCKMETHOD/</link>
+      <link>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/UNLOCKMETHOD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bakkesmod-programming-wiki.netlify.app/bakkesmod_api/Enums/UNLOCKMETHOD/</guid>
+      <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/UNLOCKMETHOD/</guid>
       <description>  View Implementation     Default = (0)
   Drop = (1)
   Special = (2)
