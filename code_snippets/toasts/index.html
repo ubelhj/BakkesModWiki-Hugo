@@ -9884,6 +9884,8 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
 <li>The height in pixels</li>
 </ol>
 <p>If you want to have a custom image, load it in your onLoad() using <a class="gdoc-markdown__link" href="/bakkesmod_api/Classes/Wrappers/GameWrapper/">GameWrapper</a>.LoadToastTexture(). Provide the function with a name for your toast, and the path to the image. Most likely you&rsquo;ll want it to be in the data folder.</p>
+<p>Toasts can be one of 4 colors based on the ToastType</p>
+<p><img src="https://cdn.discordapp.com/attachments/873081105090215957/879215077654417469/unknown.png" alt="https://cdn.discordapp.com/attachments/873081105090215957/879215077654417469/unknown.png"  /></p>
 <p>I&rsquo;ve made an example using CoolPlugin. I put this code in the onLoad() in CoolPlugin.cpp and cool.png in the <code>bakkesmod/data</code> folder</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="n">gameWrapper</span><span class="o">-&gt;</span><span class="n">LoadToastTexture</span><span class="p">(</span><span class="s">&#34;cool&#34;</span><span class="p">,</span> <span class="n">gameWrapper</span><span class="o">-&gt;</span><span class="n">GetDataFolder</span><span class="p">()</span> <span class="o">/</span> <span class="s">&#34;cool.png&#34;</span><span class="p">);</span>
 

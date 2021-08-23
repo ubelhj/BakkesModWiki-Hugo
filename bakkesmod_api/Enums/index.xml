@@ -64,7 +64,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/ToastType/</guid>
-      <description>  View Implementation   Possible colors for Toasts. ToastType_Info is black, ToastType_OK is green, ToastType_Warning is orange, and ToastType_Error is red
+      <description>  View Implementation   Possible colors for Toasts.
+ToastType_Info is black, ToastType_OK is green, ToastType_Warning is orange, and ToastType_Error is red
    ToastType_Info = (0)
   ToastType_OK = (1)
   ToastType_Warning = (2)
