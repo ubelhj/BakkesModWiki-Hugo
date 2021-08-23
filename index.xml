@@ -285,19 +285,11 @@ LinearColor GetColor()</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/CARBODY/</guid>
-      <description>View Implementation     CAR_BACKFIRE = (21)
+      <description>View Implementation   A list of car body IDs. This is really outdated (early 2017?), so you&#39;ll likely need to find or write a new one for any plugins you make. If you make one make a code snippet and we&#39;ll link to it from here
+   CAR_BACKFIRE = (21)
   CAR_BREAKOUT = (22)
   CAR_BREAKOUTTYPES = (1416)
-  CAR_OCTANE = (23)
-  CAR_OCTANEZSR = (1568)
-  CAR_PALADIN = (24)
-  CAR_ROADHOG = (25)
-  CAR_ROADHOGXL = (1300)
-  CAR_GIZMO = (26)
-  CAR_SWEETTOOTH = (27)
-  CAR_XDEVIL = (28)
-  CAR_XDEVILMK2 = (1159)
-  CAR_HOTSHOT = (29)</description>
+  CAR_OCTANE = (23)</description>
     </item>
     
     <item>
@@ -894,7 +886,8 @@ void SetPacketsIn()        Parameter Type Description     newPacketsIn  Sample
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/OnlinePlatform/</guid>
-      <description>View Implementation     OnlinePlatform_Unknown = (0)
+      <description>View Implementation   Ids for platforms players can be playing on
+   OnlinePlatform_Unknown = (0)
   OnlinePlatform_Steam = (1)
   OnlinePlatform_PS4 = (2)
   OnlinePlatform_PS3 = (3)
@@ -904,9 +897,7 @@ void SetPacketsIn()        Parameter Type Description     newPacketsIn  Sample
   OnlinePlatform_NNX = (7)
   OnlinePlatform_PsyNet = (8)
   OnlinePlatform_Deleted = (9)
-  OnlinePlatform_WeGame = (10)
-  OnlinePlatform_Epic = (11)
-  OnlinePlatform_MAX = (12)</description>
+  OnlinePlatform_WeGame = (10)</description>
     </item>
     
     <item>
@@ -1190,7 +1181,8 @@ UnrealStringWrapper GetLabel()</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/PRODUCTQUALITY/</guid>
-      <description>  View Implementation     Common = (0)
+      <description>  View Implementation   Possible item rarities
+   Common = (0)
   Uncommon = (1)
   Rare = (2)
   VeryRare = (3)
@@ -1676,7 +1668,8 @@ void SetAlmostReadyDuration()        Parameter Type Description     newAlmostRe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/ToastType/</guid>
-      <description>  View Implementation     ToastType_Info = (0)
+      <description>  View Implementation   Possible colors for Toasts. ToastType_Info is black, ToastType_OK is green, ToastType_Warning is orange, and ToastType_Error is red
+   ToastType_Info = (0)
   ToastType_OK = (1)
   ToastType_Warning = (2)
   ToastType_Error = (3)
@@ -1779,7 +1772,8 @@ static UniqueIDWrapper FromEpicAccountID()</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/bakkesmod_api/Enums/UNLOCKMETHOD/</guid>
-      <description>  View Implementation     Default = (0)
+      <description>  View Implementation   Ways an item can be earned
+   Default = (0)
   Drop = (1)
   Special = (2)
   Reward = (3)
@@ -2025,6 +2019,20 @@ Get-Content (-join($env:APPDATA, &amp;quot;\bakkesmod\bakkesmod\bakkesmod.log&am
       <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/code_snippets/plugin_types/</guid>
       <description>All Plugin Types
 PLUGINTYPE_FREEPLAY = 0x01, // Does nothing  PLUGINTYPE_CUSTOM_TRAINING = 0x02, // see above  PLUGINTYPE_SPECTATOR = 0x04, // see above  PLUGINTYPE_BOTAI = 0x08, // see above  PLUGINTYPE_REPLAY = 0x10, // see above  PLUGINTYPE_THREADED = 0x20, // OnLoad is called in it&amp;#39;s own thread  PLUGINTYPE_THREADEDUNLOAD = 0x40 // Unload is called in it&amp;#39;s own thread </description>
+    </item>
+    
+    <item>
+      <title>Toasts</title>
+      <link>https://ubelhj.github.io/BakkesModWiki-Hugo/code_snippets/toasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/code_snippets/toasts/</guid>
+      <description>Toasts are cool little popups that show on the top right of your game
+These are useful for quick notifications that you want to disappear quickly
+First you need to enable them in f2 - Misc - Enable notifications
+Watch out though! Every user also has to enable this, so make sure your plugin page or interface is quite clear that this is necessary
+Now to the code
+Make a toast pop up with GameWrapper.</description>
     </item>
     
     <item>

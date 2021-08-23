@@ -76,6 +76,20 @@ PLUGINTYPE_FREEPLAY = 0x01, // Does nothing  PLUGINTYPE_CUSTOM_TRAINING = 0x02, 
     </item>
     
     <item>
+      <title>Toasts</title>
+      <link>https://ubelhj.github.io/BakkesModWiki-Hugo/code_snippets/toasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubelhj.github.io/BakkesModWiki-Hugo/code_snippets/toasts/</guid>
+      <description>Toasts are cool little popups that show on the top right of your game
+These are useful for quick notifications that you want to disappear quickly
+First you need to enable them in f2 - Misc - Enable notifications
+Watch out though! Every user also has to enable this, so make sure your plugin page or interface is quite clear that this is necessary
+Now to the code
+Make a toast pop up with GameWrapper.</description>
+    </item>
+    
+    <item>
       <title>Using HttpWrapper</title>
       <link>https://ubelhj.github.io/BakkesModWiki-Hugo/code_snippets/using_http_wrapper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
